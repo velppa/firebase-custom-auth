@@ -9,4 +9,4 @@ This is an example of obtaining authorisation token for Service Account that can
 ## Links
 * [Firebase Database REST API User Authentication](https://firebase.google.com/docs/reference/rest/database/user-auth)
 * [Google Identity Platform - Using OAuth 2.0 for Server to Server Applications](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#authorizingrequests)
-- Inspiration - (appengine-firebase-custom-auth)[https://github.com/k2wanko-sandbox/appengine-firebase-custom-auth]
+- Inspiration - [appengine-firebase-custom-auth](https://github.com/k2wanko-sandbox/appengine-firebase-custom-auth)
