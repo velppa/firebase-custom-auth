@@ -6,16 +6,20 @@ This Go package implements obtaining authentication token for Service Account th
 
     go get github.com/schmooser/firebase-custom-auth
 
+## Documentation
+
+[Godoc](https://godoc.org/github.com/schmooser/firebase-custom-auth)
+
 ## Usage
 
 1. [Create Service Account](https://developers.google.com/identity/protocols/OAuth2ServiceAccount#creatinganaccount), get keyfile from the Console
 2. Use this keyfile to obtain auth token:
 
-         token, err := auth.GetToken("keyfile.json")
-         if err != nil {
-           log.Fatalf("Failed to receive token: %s", err)
-         }
-         log.Printf("Token: %+v", token)
+        token, err := auth.GetToken("keyfile.json")
+        if err != nil {
+          log.Fatalf("Failed to receive token: %s", err)
+        }
+        log.Printf("Token: %+v", token)
 
 ## Dependencies
 
