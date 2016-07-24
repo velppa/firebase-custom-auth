@@ -1,14 +1,12 @@
 # Firebase custom auth for Service Accounts
 
+[![GoDoc](https://godoc.org/github.com/schmooser/firebase-custom-auth?status.svg)](https://godoc.org/github.com/schmooser/firebase-custom-auth)
+
 This Go package implements obtaining authentication token for Service Account that can be used for [Firebase].
 
 ## Installation
 
     go get github.com/schmooser/firebase-custom-auth
-
-## Documentation
-
-[Godoc](https://godoc.org/github.com/schmooser/firebase-custom-auth)
 
 ## Usage
 
