@@ -1,6 +1,6 @@
-# Firebase custom authorisation for Service Accounts in Go
+# Firebase custom auth for Service Accounts
 
-This package implements obtaining authentication token for Service Account that can be used for [Firebase].
+This Go package implements obtaining authentication token for Service Account that can be used for [Firebase].
 
 ## Installation
 

@@ -1,5 +1,5 @@
 // Package auth implements obtaining authentication token for Service Account
-// that can be used for Firebase (https://firebase.google.com).
+// that can be used for Firebase https://firebase.google.com.
 package auth
 
 import (
@@ -20,7 +20,7 @@ type gipClaims struct {
 	jwt.StandardClaims
 }
 
-// firebaseScopes defines scope for Firebase accounts defined in Google Identity Platform.
+// FirebaseScopes defines scope for Firebase accounts in Google Identity Platform.
 var FirebaseScopes = []string{
 	"https://www.googleapis.com/auth/userinfo.email",
 	"https://www.googleapis.com/auth/firebase.database",
@@ -50,7 +50,7 @@ type Token struct {
 	ExpiresIn   int    `json:"expires_in"`
 }
 
-// GetToken returns Auth Token
+// GetToken returns Token provided with the keyfile filename.
 func GetToken(keyfile string) (*Token, error) {
 
 	keyfileData, err := ioutil.ReadFile(keyfile)
